@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">  
+  <!--meta name="viewport" content="width=1200px"-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />            
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Main</title>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="top">
+        <div class="top__contain">
+          <a href="#" class="logo"><img src="img/logo.svg"></a>
+          
+          <div class="top__mnu-col">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item _parent">
+                  <a class="menu__link" href="">Products</a>
+                  <span class="menu__arrow menu-arrow"></span>
+                  <ul class="sub-menu__list">
+                    <li>
+                      <a class="sub-menu__link" href="">Второй уровень</a>
+                      <span class="sub-menu__arrow menu-arrow"></span>
+                      <ul class="sub-sub-menu__list">
+                        <li>
+                          <a class="sub-sub-menu__link" href="">Третий уровень</a>
+                        </li>
+                        <li>
+                          <a class="sub-sub-menu__link" href="">Третий уровень</a>
+                        </li>
+                        <li>
+                          <a class="sub-sub-menu__link" href="">Третий уровень</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="sub-menu__link" href="">Второй уровень</a>
+                    </li>
+                    <li>
+                      <a class="sub-menu__link" href="">Второй уровень</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>  
+          </div>
+
+          <div class="top__btns">
+           <a href="#" class="btn top__btn">Sign in</a>
+           <a href="#" class="btn btn--wh top__btn-2">Sign in</a>
+         </div>
+       </div>        
+     </div>
+     <div class="top__slider">
+      @@include('var/_top-slide.html')
+      @@include('var/_top-slide.html')
+      @@include('var/_top-slide.html')
+      @@include('var/_top-slide.html')
+    </div><!--top__slider-->
+    <div class="shape-right header__shape">
+      <svg width="533" height="253" viewBox="0 0 533 253" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M320.001 114.185C409.501 50.1849 553.501 29.1849 669.359 102.844C809.28 191.802 920.029 150.611 1012 61.5228" stroke="#09D4DA" stroke-width="25" stroke-linecap="round"/>
+        <path d="M12.9999 127.625C98.424 218.721 229.317 217.178 355.718 150.17C502.212 72.5106 606.389 102.403 698.36 191.491" stroke="#09D4DA" stroke-width="25" stroke-linecap="round"/>
+      </svg>
+
+    </div>
+  </header>
+  <main class="main">
+
+   <div class="favorite-assets">
+    <div class="favorite-assets-shape-top">
+      <svg viewBox="0 0 1921 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 32.7628C0.5 32.7628 445.5 -40.9535 960.5 32.7628C1475.5 106.479 1920.5 32.7628 1920.5 32.7628V101C1920.5 101 1381 101 960.5 101C540 101 0.5 101 0.5 101L0.5 32.7628Z" fill="#EEF6F7"/>
+      </svg>
+
+    </div>    
+
+    <div class="favorite-assets-shape-bottom">
+     <svg viewBox="0 0 1920 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0.000243288C0 0.000243288 432.5 1.81656e-05 960 0.000177659C1487.5 0.000337153 1920 0.000440363 1920 0.000440363L1920 63.5967C1920 63.5967 1382 147.755 960 63.5965C538 -20.5617 -1.11195e-05 63.5964 -1.11195e-05 63.5964L0 0.000243288Z" fill="#EEF6F7"/>
+    </svg>
+
+  </div>
+</div><!--favorite-assets-->
+</main>
+<footer class="footer">      
+</footer>
+</div>
+<!--wrapper-->
+
+<script src="js/jquery-3.4.1.min.js"></script>      
+<script src="js/slick.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
+
