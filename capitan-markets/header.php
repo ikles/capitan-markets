@@ -7,15 +7,15 @@
 	<meta name="viewport" content="width=device-width, maximum-scale=1">
 	<!--meta name="viewport" content="width=1920px"-->
 	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>	
-	<!--script src="<? bloginfo('template_url') ?>/js/jquery-3.4.1.min.js"></script-->	
-	<?php wp_head(); ?>
+		<?php wp_head(); ?>		
 	<script>
 		jQuery.noConflict();
 	</script>	
+	<script src="<? bloginfo('template_url') ?>/js/slick.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;800&display=swap" rel="stylesheet">	
-	<link rel="stylesheet" href="<? bloginfo('template_url') ?>/css/slick.css">
+	
 	<link rel="stylesheet" href="<? bloginfo('template_url') ?>/css/main.css">
 
 	<!--link rel="icon" type="image/png" href="http://ikles.ru/wp-content/themes/mif/img/icon.png" /-->
@@ -27,11 +27,16 @@
 <![endif]-->
 </head>
 <body <?php body_class(); ?>>
-	<div class="wrapper">
-		<header class="header">
+
+
+	<div class="wrapper" <?php if( is_front_page() ): echo 'id="fullpage"'?> <?php endif; ?>>
+		<header class="header section">
 			<div class="top">
 				<div class="top__contain">
-					<a href="#" class="logo"><img src="<? bloginfo('template_url') ?>/img/logo.svg"></a>
+					<a href="#" class="logo">
+						<img class="logo-img" src="<? bloginfo('template_url') ?>/img/logo.svg">
+						<img class="logo-img-bl" src="<? bloginfo('template_url') ?>/img/logo-bl.svg">
+					</a>
 					<div class="menu__list-w">
 						<?php					
 						wp_nav_menu( [
@@ -74,11 +79,8 @@
 					</div>
 				</div><!--top__slide-->
 			</div><!--top__slider-->
-			<div class="header-ship">
-				<!-- <img src="<? bloginfo('template_url') ?>/img/header-ship.GIF" alt=""> -->
-			</div>
 
-			<div class="shape-right header__shape">
+			<div class="shape header__shape">
 				<svg width="533" height="253" viewBox="0 0 533 253" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M320.001 114.185C409.501 50.1849 553.501 29.1849 669.359 102.844C809.28 191.802 920.029 150.611 1012 61.5228" stroke="#09D4DA" stroke-width="25" stroke-linecap="round"/>
 					<path d="M12.9999 127.625C98.424 218.721 229.317 217.178 355.718 150.17C502.212 72.5106 606.389 102.403 698.36 191.491" stroke="#09D4DA" stroke-width="25" stroke-linecap="round"/>
