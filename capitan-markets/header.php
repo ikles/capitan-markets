@@ -9,13 +9,13 @@
 	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>	
 		<?php wp_head(); ?>		
 	<script>
-		jQuery.noConflict();
-	</script>	
-	<script src="<? bloginfo('template_url') ?>/js/slick.js"></script>
+		/*jQuery.noConflict();*/
+	</script>		
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;800&display=swap" rel="stylesheet">	
 	
+	<link rel="stylesheet" href="<? bloginfo('template_url') ?>/css/select2.min.css">
 	<link rel="stylesheet" href="<? bloginfo('template_url') ?>/css/main.css">
 
 	<!--link rel="icon" type="image/png" href="http://ikles.ru/wp-content/themes/mif/img/icon.png" /-->

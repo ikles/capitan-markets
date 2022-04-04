@@ -4,18 +4,81 @@ add_theme_support('post-thumbnails');
 function register_my_menus() {
 	register_nav_menus(
 		array(
-			'top-mnu' => __( 'Footer Menu 1' ),
+			'top-mnu' => __( 'Top Menu 1' ),
 			'b-mnu1' => __( 'Footer Menu 1' ),
-			'b-mnu2' => __( 'Footer Menu 2' )      
+			'b-mnu2' => __( 'Footer Menu 2' ),     
+			'b-mnu3' => __( 'Footer Menu 3' ),     
+			'b-mnu4' => __( 'Footer Menu 4' )
 		)
 	);
 }
+
 add_action( 'init', 'register_my_menus' );
 
 
 register_sidebar(array(
-	'name' => 'Join now',
-	'id' => 'join-now',
+	'name' => 'Footer socials',
+	'id' => 'fsocs',
+	'description' => '',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '',
+	'after_title' => ''
+));
+
+register_sidebar(array(
+	'name' => 'Footer menu title 1',
+	'id' => 'ftitle1',
+	'description' => '',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '',
+	'after_title' => ''
+));
+
+register_sidebar(array(
+	'name' => 'Footer menu title 2',
+	'id' => 'ftitle2',
+	'description' => '',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '',
+	'after_title' => ''
+));
+
+register_sidebar(array(
+	'name' => 'Footer menu title 3',
+	'id' => 'ftitle3',
+	'description' => '',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '',
+	'after_title' => ''
+));
+
+register_sidebar(array(
+	'name' => 'Footer menu title 4',
+	'id' => 'ftitle4',
+	'description' => '',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '',
+	'after_title' => ''
+));
+
+register_sidebar(array(
+	'name' => 'Footer text',
+	'id' => 'ftxt',
+	'description' => '',
+	'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '',
+	'after_title' => ''
+));
+
+register_sidebar(array(
+	'name' => 'Footer links',
+	'id' => 'flinks',
 	'description' => '',
 	'before_widget' => '',
 	'after_widget' => '',

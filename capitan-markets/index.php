@@ -83,16 +83,16 @@
 
 <div class="prior section">
 
-<div class="shape-white-lb prior__shape-top">
-<svg viewBox="0 0 1920 101" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1920 -0.000410199C1920 -0.000410199 1487.5 -0.000597511 960 -0.000391902C432.5 -0.000186293 0 -4.52724e-05 0 -4.52724e-05V63.5963C0 63.5963 538 147.755 960 63.596C1382 -20.5623 1920 63.5958 1920 63.5958L1920 -0.000410199Z" fill="white"/>
-</svg>
-</div>
-<div class="shape-white-lb prior__shape-bot">
-<svg viewBox="0 0 1920 101" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.66793e-05 101C1.66793e-05 101 432.5 101 960 101C1487.5 101 1920 101 1920 101V37.4033C1920 37.4033 1382 -46.7554 960 37.4036C538 121.562 0 37.4038 0 37.4038L1.66793e-05 101Z" fill="white"/>
-</svg>
-</div>
+  <div class="shape-white-lb prior__shape-top">
+    <svg viewBox="0 0 1920 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1920 -0.000410199C1920 -0.000410199 1487.5 -0.000597511 960 -0.000391902C432.5 -0.000186293 0 -4.52724e-05 0 -4.52724e-05V63.5963C0 63.5963 538 147.755 960 63.596C1382 -20.5623 1920 63.5958 1920 63.5958L1920 -0.000410199Z" fill="white"/>
+    </svg>
+  </div>
+  <div class="shape-white-lb prior__shape-bot">
+    <svg viewBox="0 0 1920 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1.66793e-05 101C1.66793e-05 101 432.5 101 960 101C1487.5 101 1920 101 1920 101V37.4033C1920 37.4033 1382 -46.7554 960 37.4036C538 121.562 0 37.4038 0 37.4038L1.66793e-05 101Z" fill="white"/>
+    </svg>
+  </div>
 
   <div class="contain">
     <div class="prior__content">
@@ -124,22 +124,18 @@
         </div>
       </div>
       <div class="ask__r">
-        <form class="ask__form">
-          <input class="ask__input" type="text" placeholder="Your name" /><input class="ask__input" type="text" placeholder="Your Email" /><input class="ask__input" type="text" placeholder="Subject" />
-          <textarea class="ask__textarea" placeholder="Your message"></textarea>
-          <button href="#" class="btn ask__btn">Send</button>
-        </form>
+        <?php echo do_shortcode('[wpforms id="634" title="false" description="false"]'); ?>
       </div>
     </div>
   </div>
 </div>
 <div class="get section">
 
-<div class="shape-white-lb get__shape-top">
-<svg viewBox="0 0 1920 101" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.66793e-05 -0.000410199C1.66793e-05 -0.000410199 432.5 -0.000597511 960 -0.000391902C1487.5 -0.000186293 1920 -4.52724e-05 1920 -4.52724e-05V63.5963C1920 63.5963 1382 147.755 960 63.596C538 -20.5623 0 63.5958 0 63.5958L1.66793e-05 -0.000410199Z" fill="white"/>
-</svg>
-</div>
+  <div class="shape-white-lb get__shape-top">
+    <svg viewBox="0 0 1920 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1.66793e-05 -0.000410199C1.66793e-05 -0.000410199 432.5 -0.000597511 960 -0.000391902C1487.5 -0.000186293 1920 -4.52724e-05 1920 -4.52724e-05V63.5963C1920 63.5963 1382 147.755 960 63.596C538 -20.5623 0 63.5958 0 63.5958L1.66793e-05 -0.000410199Z" fill="white"/>
+    </svg>
+  </div>
 
   <div class="contain">
     <div class="get__w">
